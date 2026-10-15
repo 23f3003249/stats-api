@@ -9,7 +9,7 @@ from fastapi.responses import JSONResponse, Response
 app = FastAPI()
 
 ALLOWED_ORIGIN = "https://dash-kp2ui5.example.com"
-EMAIL = os.environ.get("EMAIL", "REPLACE_WITH_YOUR_EMAIL")
+EMAIL = "23f3003249@ds.study.iitm.ac.in"
 
 
 @app.middleware("http")
